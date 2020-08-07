@@ -1,0 +1,80 @@
+/* スマホ用 479pxまでの時 */
+@media screen and (max-width:479px) {
+  
+/* 共通クラス */
+.wrapper {
+  width: 200px;
+}
+
+/* header */
+.header {
+  height: 200px;
+  position: relative;
+}
+
+.header-right {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  width: 60px;
+  height: 160px;
+  margin: 0;
+}
+
+.header-boxes {
+  padding: 10px;
+}
+
+.header-box {
+  float:none;
+}
+
+.box1 {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+/* left */
+.left {
+  float: none;
+  height: 100px;
+  width: 100%;
+}
+
+/* right */
+.right {
+  float: none;
+  height: 210px;
+  width: 100%;
+}
+
+.right-boxes {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.right-box {
+  box-sizing: border-box;
+  background-color: #ff863f;
+  width: 140px;
+  height: 50px;
+  border: 4px solid #fff;
+}
+
+.box4 {
+  margin-bottom: 10px;
+}
+
+.box5 {
+  margin-bottom: 10px;
+}
+
+
+
+}

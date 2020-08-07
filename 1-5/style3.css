@@ -1,0 +1,106 @@
+/* resetCSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通クラス */
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* clearfix */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* header */
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+.header-name {
+    display: inline-block;
+}
+
+.header-right {
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    margin: 20px 20px;
+}
+
+.header-boxes {
+    padding: 10px;
+}
+
+.header-box {
+    float:left;
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+}
+
+.box1 {
+    margin-right: 10px;
+}
+
+.box2 {
+    margin-right: 10px;
+}
+
+/* contents */
+
+/* left */
+.left {
+    float: left;
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+}
+
+/* right */
+.right {
+    float: right;
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+    position: relative;
+}
+
+.right-name {
+    display: inline-block;
+}
+
+.right-boxes {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.right-box {
+    box-sizing: border-box;
+    background-color: #ff863f;
+    width: 140px;
+    height: 50px;
+    border: 5px solid #fff;
+}
+
+.box4 {
+    margin-bottom: 10px;
+}
+
+.box5 {
+    margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
