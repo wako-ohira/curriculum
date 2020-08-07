@@ -1,0 +1,75 @@
+/* resetCSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通クラス */
+.wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* clearfix */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* top */
+.top-left {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #ffff66;
+}
+
+.top-right {
+    float: right;
+    width: 200px;
+    height: 100px;
+    background-color: #666666;
+}
+
+/* middle */
+.middle {
+    height: 150px;
+    float: left;
+}
+
+.middle-1 {
+    width: 150px;
+    background-color: #ff3333;
+}
+
+.middle-2 {
+    width: 100px;
+    background-color: #3366ff;
+}
+
+.middle-3 {
+    width: 100px;
+    background-color: #669933;
+}
+
+/* under */
+.under {
+    height: 100px;
+    float: left;
+}
+
+.under-1 {
+    width: 150px;
+    background-color: #ff9966;
+}
+
+.under-2 {
+    width: 100px;
+    background-color: #FFFFCC;
+}
+
+.under-3 {
+    width: 100px;
+    background-color: #330066;
+}
