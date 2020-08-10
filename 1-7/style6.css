@@ -1,0 +1,69 @@
+/* resetCSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通クラス */
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* clearfix */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* header */
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+/* left */
+.left {
+    float: left;
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+}
+
+/* right */
+.right {
+    float: right;
+}
+
+.right-1 {
+    height: 100px;
+    width: 250px;
+    background-color: #0093b7;
+}
+
+.right-right {
+    float: right;
+}
+
+.right-2 {
+    height: 50px;
+    width: 150px;
+    background-color: #ff9e6b;
+}
+
+.right-3 {
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.right-4 {
+    height: 150px;
+    background-color: #dbd403;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
