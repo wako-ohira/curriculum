@@ -34,14 +34,14 @@ $is_student = true;
 
 if ($age < 25 && $is_student) {
 
-    echo '学生パックが使えるよ';
+    echo "学生パックが使えるよ";
 
 } elseif ($age < 25) {
 
-    echo '若者応援割引が使えるよ';
+    echo "若者応援割引が使えるよ";
 
 } else {
-    echo '残念ながら割引はありません';
+    echo "残念ながら割引はありません";
 
 }
 
@@ -52,24 +52,24 @@ if ($age < 25 && $is_student) {
 
 echo '<br>';
 
-$blood = 'B';
+$blood = "B";
 
 switch ($blood) {
 
-case 'A':
-  print 'A型';
+case "A":
+  print "A型";
 break;
-case 'B':
-  print 'B型';
+case "B":
+  print"B型";
 break;
-case 'C':
-  print 'C型';
+case "C":
+  print "C型";
 break;
-case 'O':
-  print 'O型';
+case "O":
+  print "O型";
 break;
 default:
-echo '血液型を入力してください';
+echo "血液型を入力してください";
 
 }
 
@@ -81,9 +81,9 @@ echo '<br>';
 $name = "";
 
 if ($name !== "") {
-    echo '名前を受け付けました';
+    echo "名前を受け付けました";
 } else {
-    echo '名前を入力してください';
+    echo "名前を入力してください";
 }
 
 // ↑の書き換え 三項演算子
@@ -97,17 +97,19 @@ echo ($name != "") ? '名前を受け付けました' : '名前を入力して�
 
 <?php
 
+echo '<br><br>';
+echo "課題";
 echo '<br>';
 // 提出課題
 
-$name = 'hanako';
-$password = pass;
+$name = "hanako";
+$password = "pass";
 
-if ($name == 'taro' && $password == pass) {
+if ($name == "taro" && $password == "pass") {
     echo "ログイン成功です";
-} elseif ($name == 'taro') {
+} elseif ($name == "taro") {
     echo "パスワードが間違っています";
-} elseif ($password == 'pass') {
+} elseif ($password == "pass") {
     echo "名前が間違っています";
 } else {
     echo "入力情報が間違っています";
