@@ -1,7 +1,7 @@
 <?php
-$my_name = $_GET['my_name'];
-$email = $_GET['email'];
-$password = $_GET['password'];
+$my_name = $_POST['my_name'];
+$email = $_POST['email'];
+$password = $_POST['password'];
 ?>
 <p>私の名前は、<?php echo $my_name; ?></p>
 <p>メールアドレスは、<?php echo $email; ?></p>
